@@ -9,3 +9,8 @@ def add(a, b):
 def join_words(words):
     """Join a list of words with a comma and a space."""
     return ", ".join(words)
+
+
+def sort_people(people):
+    people.sort(key=lambda person: person["name"])
+    return people
