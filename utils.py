@@ -9,3 +9,7 @@ def add(a, b):
 def join_words(words):
     """Join a list of words with a comma and a space."""
     return ", ".join(words)
+
+
+def average(values):
+    return sum(values) / len(values)
